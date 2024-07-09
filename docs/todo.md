@@ -4,23 +4,24 @@
 
    - Download Pokémon images and preprocess them.
    - Load and preprocess the general info CSV file.
+   - Ensure each dataset uses the Pokémon name as a unique identifier.
 
 2. **Model Training:**
 
-   - Train/fine-tune the CLIP model on the Pokémon image dataset.
-   - Fine-tune a BERT/GPT model on the general info dataset.
-   - Generate and store text and image embeddings.
+   - Train/fine-tune the CLIP model on the Pokémon image dataset to create image embeddings.
+   - Generate text embeddings using the CLIP model for Pokémon descriptions from the general info dataset.
 
 3. **Database Setup:**
 
-   - Define schema for Pokémon metadata and image URLs in a relational database.
+   - Define schema for Pokémon metadata, image URLs, and embeddings in a relational database.
    - Store text and image embeddings in a vector database.
+   - Ensure each Pokémon’s data can be accessed using the name as the key.
 
 4. **Backend Development:**
 
    - Create scripts to preprocess data, generate embeddings, and store them in the respective databases.
    - Develop API endpoints for text, image, and combined searches.
-   - Integrate embedding search with vector and relational databases.
+   - Integrate embedding search with vector and relational databases, using names as identifiers.
 
 5. **User Interface:**
 
