@@ -4,6 +4,11 @@
 
 This application combines comprehensive identification features of a multimodal input app with the quick and broad description handling capabilities of a Retrieval-Augmented Generation (RAG) system. The goal is to create a versatile and efficient Pokémon Identification App that can handle text, image, and combined queries, providing detailed and accurate information about Pokémon.
 
+## Datasets
+
+- [Pokémon Dataset by Rounak Banik](https://www.kaggle.com/datasets/rounakbanik/pokemon)
+- [Pokémon Image Dataset by hlrhegemony](https://www.kaggle.com/datasets/hlrhegemony/pokemon-image-dataset/data)
+
 ## To-Do List
 
 1. **Data Preparation:**
