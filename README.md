@@ -40,15 +40,15 @@ This application combines comprehensive identification features of a multimodal 
 
 ## Folder Strcuture
 
-# pokedex-app
+### pokedex-app
 
-## data/
+#### data/
 
 - raw/
 - processed/
 - combined/
 
-## backend/
+#### backend/
 
 - app/
   - **init**.py
@@ -67,7 +67,7 @@ This application combines comprehensive identification features of a multimodal 
 - requirements.txt
 - README.md
 
-## frontend/
+#### frontend/
 
 - public/
 - src/
@@ -79,11 +79,11 @@ This application combines comprehensive identification features of a multimodal 
 - package.json
 - README.md
 
-## scripts/
+#### scripts/
 
 - download_images.py
 - preprocess_images.py
 - preprocess_csv.py
 - combine_datasets.py
 
-## README.md
+#### README.md
