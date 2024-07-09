@@ -259,41 +259,50 @@ return gpt_response.choices[0].text.strip()
 
 ## Folder Strcuture
 
-pokedex-app/
-├── data/
-│ ├── raw/
-│ ├── processed/
-│ ├── combined/
-├── backend/
-│ ├── app/
-│ │ ├── **init**.py
-│ │ ├── main.py
-│ │ ├── api/
-│ │ │ ├── **init**.py
-│ │ │ ├── endpoints.py
-│ │ ├── models/
-│ │ │ ├── **init**.py
-│ │ │ ├── clip_model.py
-│ │ │ ├── bert_model.py
-│ │ ├── database/
-│ │ │ ├── **init**.py
-│ │ │ ├── setup.py
-│ │ │ ├── queries.py
-│ ├── requirements.txt
-│ ├── README.md
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── SearchBar.js
-│ │ │ ├── ResultsDisplay.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── package.json
-│ ├── README.md
-├── scripts/
-│ ├── download_images.py
-│ ├── preprocess_images.py
-│ ├── preprocess_csv.py
-│ ├── combine_datasets.py
-├── README.md
+# pokedex-app
+
+## data/
+
+- raw/
+- processed/
+- combined/
+
+## backend/
+
+- app/
+  - **init**.py
+  - main.py
+  - api/
+    - **init**.py
+    - endpoints.py
+  - models/
+    - **init**.py
+    - clip_model.py
+    - bert_model.py
+  - database/
+    - **init**.py
+    - setup.py
+    - queries.py
+- requirements.txt
+- README.md
+
+## frontend/
+
+- public/
+- src/
+  - components/
+    - SearchBar.js
+    - ResultsDisplay.js
+  - App.js
+  - index.js
+- package.json
+- README.md
+
+## scripts/
+
+- download_images.py
+- preprocess_images.py
+- preprocess_csv.py
+- combine_datasets.py
+
+## README.md
